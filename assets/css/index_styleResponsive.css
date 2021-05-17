@@ -1,0 +1,119 @@
+@media screen and (max-width:576px){
+    /* body{
+        background:red;
+    } */
+    h1{
+        font-size:25px!important;
+        width:80%!important;
+    }
+    h2{
+        font-size:18px!important;
+    }
+    .navbar-brand{
+        width:100px!important;
+    }
+    footer p{
+        font-size:15px!important;
+    }
+    .contact textarea {
+        height: auto!important;
+    }
+    .home{
+        height:70vh!important;
+    }
+    .project-control-filter ul li{
+        margin: .5rem .5rem!important;
+        padding: .2rem!important;
+        font-size: small!important;
+}
+
+}
+@media screen and (max-width:768px) and (min-width:577px){
+    /* body{
+        background:green;
+    } */
+    h1{
+        font-size:35px!important;
+        width:80%!important;
+    }
+    h2{
+        font-size:25px!important;
+    }
+    .contact textarea {
+        height: auto!important;
+    }
+    .project-control-filter ul li{
+            margin: .5rem .5rem!important;
+            padding: .2rem!important;
+            font-size: small!important;
+    }
+
+}
+@media screen and (max-width:991px) and (min-width:769px){
+    /* body{
+        background:blue;
+    } */
+    h1{
+        font-size:40px!important;
+    }
+    h2{
+        font-size:25px!important;
+    }
+
+}
+@media screen and (max-width:1199px) and (min-width:992px){
+    /* body{
+        background:#000;
+    } */
+}
+@media screen and (max-width:895px){
+    .blogDetails__icons{
+        display:none;
+    }
+}
+/* navbar responsive */
+@media screen and (max-width:991px){
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.8);
+        height: 100vh;
+        width: 100vw;
+        animation :zoominoutsinglefeatured 1s ease-in-out;
+    }
+    .navbar-nav{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(0, -50%);
+        transition:3s ease-in;
+        animation:animate__zoomIn 1s;
+    }
+    .nav-link{
+        opacity:0;
+        animation: animation .5s ease forwards var(--i);
+    }
+    @keyframes animate__zoomIn{
+        from{
+            
+        }
+        to{
+
+        }
+    }
+    @keyframes zoominoutsinglefeatured {
+        0% {
+            transform: scale(1,1);
+        }
+        50% {
+            transform: scale(1.2,1.2);
+        }
+        100% {
+            transform: scale(1,1);
+        }
+    }
+    .phoneIcon{
+        display:none;
+    }
+}
